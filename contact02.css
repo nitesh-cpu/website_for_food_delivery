@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Sticky Header */
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #fa4a4a;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure header stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
+  }
+  
+  header .logo img {
+    height: 50px; /* Adjust logo height */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff6b6b; /* Change color on hover */
+  }
+  
+  /* Contact Card */
+  .contact-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+  }
+  
+  .contact-card .header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .contact-card .header .description {
+    margin: 0.5rem 0 1.5rem 0;
+    color: #777;
+    font-size: 1.1rem;
+  }
+  
+  .contact-details .detail {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details .label {
+    font-weight: bold;
+    color: #555;
+    display: inline-block;
+    width: 80px;
+  }
+  
+  .contact-details .value {
+    color: #333;
+  }
+  
+  .contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .description-section h2 {
+    margin-top: 1.5rem;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .description-section p {
+    color: #555;
+    line-height: 1.6;
+  }
